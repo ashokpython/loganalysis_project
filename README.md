@@ -28,4 +28,4 @@ Python program using the psycopg2 module to connect to the database.
 This files contains all configuration (Python3, Postgresql,PIP8 etc) setup for our project
 4. After downloading goto downnloads folder and extract the zip file name contans **LOGS_ANALYSIS**
 5. Keep it there (or) you can move to your own project path
-6. Download this project: [loganalysis_project]()
+6. Download this project: [loganalysis_project](https://github.com/ashokpython/loganalysis_project)
