@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python3
 
 import psycopg2
 
@@ -105,9 +105,11 @@ def days_with_errors():
     print("=================================")
 
     for i in results:
-        print(i[0].strftime('%B %d, %Y') + " -- " + str(round(i[1]*100, 1)) + "%" + " errors")
+        date = i[0].strftime('%B, %d, %Y')
+        per = str(round(i[1]*100, 1))
+        print(date + " -- " + per + "%" + " errors")
 
-print('\nPlease wait we are procession your results...\n')
+print('\nPlease wait we are processing your results...\n')
 top_articles()
 top_article_authors()
 days_with_errors()
